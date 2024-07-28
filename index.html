@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/portfolio.png" type="image/x-icon">
+    <title>Portfolio Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="banner">
+        <header>
+            <a href="#" class="logo">
+                Innov <span>X</span>
+                 Out
+            </a>
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                   
+                </li>
+                <li> <a href="#about">About</a>
+                   </li>
+                <li>
+                    <a href="#work">Work</a>
+                   
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a href="#github">Github</a>
+                </li>
+                <li class="dayNight">
+                    <ion-icon name="moon-outline"></ion-icon>
+                    <ion-icon name="sunny-outline"></ion-icon>
+                 </li>
+            </ul>
+        </header>
+        <div class="content">
+            <h2>I am <span id="text"></span></h2>
+            <p>Welcome to my portfolio! Explore my work and get to know more about me.</p>
+            <!-- <a href="#work" class="cta-button">See My Work</a> -->
+             <button class="chat" onclick="navigateToContact()">Let's Connect</button>
+
+            
+        </div>
+    </section>
+    <!-- about page -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Apoorva, a Full Stack Developer with a solid background in web development and a Bachelor's degree in Mathematics. I recently completed my Master's in Computer Applications (MCA) and have hands-on experience with the MERN stack through industrial training and an internship.</p>
+            <p>I have worked on various projects using React, Node.js, Express, and MongoDB, and have also learned Next.js to further enhance my development skills. My portfolio includes a range of projects that showcase my ability to create dynamic and responsive web applications.</p>
+            <p>In addition to my technical skills, I am passionate about continuous learning and enjoy exploring new technologies and trends in the web development field. I am always eager to take on new challenges and work on exciting projects.</p>
+            <p>Feel free to explore my work, and don't hesitate to reach out if you'd like to connect or discuss potential opportunities. Thank you for visiting my portfolio!</p>
+        </div>
+    </section>
+    <section id="work" class="work">
+        <div class="container">
+            <h2>My Work</h2>
+            <div class="projects">
+                <div class="project">
+                    <div class="project-image-container">
+                        <img src="cart.png" alt="Shopping Cart">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <a href="https://shopping-cart-neww.vercel.app/" class="project-link">Live</a>
+                                <a href="https://github.com/appusrivastva/Shopping_Cart" class="project-link">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Shopping Cart</h3>
+                    <p>Tech Stack: React, Nodejs</p>
+                </div>
+                <div class="project">
+                    <div class="project-image-container">
+                        <img src="portfolios.png" alt="My Personal Portfolio">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <a href="https://apoorvasrivastva-portfolio.vercel.app/" class="project-link">Live</a>
+                                <a href="https://github.com/appusrivastva/Apoorva_portfolio" class="project-link">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>My Personal Portfolio</h3>
+                    <p>Tech Stack: React, Tailwind CSS,Nodejs</p>
+                </div>
+                <div class="project">
+                    <div class="project-image-container">
+                        <img src="accommodation.png" alt="Accommodation Finder">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <a href="https://hostel-pg-finder.vercel.app/" class="project-link">Live</a>
+                                <a href="https://github.com/appusrivastva/Hostel-Pg-Finder" class="project-link">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Accommodation Finder</h3>
+                    <p>Tech Stack: MongoDB,Expressjs,Reactjs,Nodejs</p>
+                </div>
+                <div class="project">
+                    <div class="project-image-container">
+                        <img src="responsive.png" alt="Responsive Web Page">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <a href="https://responsive-web-page-new.vercel.app/" class="project-link">Live</a>
+                                <a href="https://github.com/appusrivastva/Spotify_Project" class="project-link">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Responsive Web Page</h3>
+                    <p>Tech Stack: HTML, CSS</p>
+                </div>
+                <div class="project">
+                    <div class="project-image-container">
+                        <img src="spotify.png" alt="Spotify Clone">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <a href="https://spotify-clone-n.vercel.app/" class="project-link">Live</a>
+                                <a href="https://github.com/appusrivastva/Spotify_Project" class="project-link">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Spotify Clone</h3>
+                    <p>Tech Stack: HTML,CSS</p>
+                </div>
+                <div class="project">
+                    <div class="project-image-container">
+                        <img src="bmi.png" alt="BMI Calculator">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <a href="https://bmi-calculator-new.vercel.app/" class="project-link">Live</a>
+                                <a href="https://github.com/appusrivastva/BMI_Calculator" class="project-link">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>BMI Calculator</h3>
+                    <p>Tech Stack: React,Nodejs</p>
+                </div>
+                <div class="project">
+                    <div class="project-image-container">
+                        <img src="todo.png" alt="Todo App">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <a href="https://todoapp-git-main-km-apoorva-shriwastawas-projects.vercel.app/" class="project-link">Live</a>
+                                <a href="https://github.com/appusrivastva/Redux_Basic" class="project-link">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Todo App</h3>
+                    <p>Tech Stack: React, Redux,Nodejs</p>
+                </div>
+                <div class="project">
+                    <div class="project-image-container">
+                        <img src="clock.png" alt="Digital Clock">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <a href="https://digital-clock-new.vercel.app/" class="project-link">Live</a>
+                                <a href="https://github.com/appusrivastva/Digital_Clock" class="project-link">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Digital Clock</h3>
+                    <p>Tech Stack: HTML,CSS,JavaScript</p>
+                </div>
+                <div class="project">
+                    <div class="project-image-container">
+                        <img src="expense.png" alt="Expense Tracker">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <a href="https://expense-tracker-neww.vercel.app/" class="project-link">Live</a>
+                                <a href="https://github.com/appusrivastva/Expense_Tracker" class="project-link">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Expense Tracker</h3>
+                    <p>Tech Stack: React,Nodejs</p>
+                </div>
+              
+             
+                <div class="project">
+                    <div class="project-image-container">
+                        <img src="calculator.png" alt="Calculator">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <a href="https://calculator-app-new.vercel.app/" class="project-link">Live</a>
+                                <a href="https://github.com/appusrivastva/Calculator_App" class="project-link">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Calculator</h3>
+                    <p>Tech Stack: React,Nodejs</p>
+                </div>
+            </div>
+        </div>
+    </section> 
+     <section id="github" class="github">
+        <div class="container">
+            <h2>GitHub Stats</h2>
+            <img src="https://github-readme-streak-stats.herokuapp.com/?user=appusrivastva&theme=dark&hide_border=true" alt="GitHub Streak">
+            <img src="https://github-readme-stats.vercel.app/api?username=appusrivastva&show_icons=true&theme=dark&hide_border=true" alt="GitHub Stats">
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=appusrivastva&layout=compact&theme=dark&hide_border=true" alt="Top Languages">
+            <img src="https://ssr-contributions-svg.vercel.app/_/appusrivastva?format=svg&weeks=50&theme=native&widget_size=medium" alt="GitHub Contributions">
+        </div>
+    </section>
+   
+
+    
+  
+
+    
+<!-- conatct  -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <form id="contactForm" action="https://formspree.io/f/mqazpbjp" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="showing">
+            <p>I am Interested in....</p>
+        <div>Backend Development</div>
+        <div>Frontend Development</div>
+        <div>Website Development</div>
+        <div>Devops</div>
+        </div>
+
+
+        <div class="social">
+            <a href="https://github.com/appusrivastva" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/km-apoorva-shriwastawa-835101299/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="tel:+917388379194"><ion-icon name="call-outline"></ion-icon></a>
+            <a href="mailto:appumca2022@gmail.com"><ion-icon name="mail-outline"></ion-icon></a>
+        </div>
+        
+    </div>
+</section>
+
+    <!--github  -->
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
