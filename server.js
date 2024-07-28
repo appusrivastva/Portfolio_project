@@ -24,7 +24,7 @@ app.post('/contact', (req, res) => {
 
     const mailOptions = {
         from: email,
-        to: 'appumca2022@gmail.com',
+        to: mail,
         subject: `Contact form submission from ${name}`,
         text: message
     };
