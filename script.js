@@ -19,11 +19,5 @@ let typingEffect=new Typed("#text",{
         document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
     }
 
-const form = document.getElementById('contact');
 
 
-  form.addEventListener('submit', (event) => {
-    event.preventDefault(); // फॉर्म को डिफ़ॉल्ट रूप से सबमिट होने से रोकता है
-
-
-  });
