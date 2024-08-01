@@ -19,3 +19,5 @@ let typingEffect=new Typed("#text",{
         document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
     }
 
+
+
