@@ -143,6 +143,11 @@ header ul li a{
         display: none;
     }
 }
+.hamburger {
+    display: none;
+    cursor: pointer;
+    font-size: 2em;
+}
 
 
 /* Responsive Styles */
